@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/find_the_temple_jungle_maze.ogg-a7049eb967c2e845cf4904edd227fcec.oggstr"
+
+[deps]
+
+source_file="res://src/music/jungle/find_the_temple_jungle_maze.ogg"
+dest_files=[ "res://.import/find_the_temple_jungle_maze.ogg-a7049eb967c2e845cf4904edd227fcec.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

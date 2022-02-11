@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/find_the_temple_jungle_maze.mp3-dd51567f1752a60afd93899c0e5450e3.mp3str"
+
+[deps]
+
+source_file="res://src/music/jungle/find_the_temple_jungle_maze.mp3"
+dest_files=[ "res://.import/find_the_temple_jungle_maze.mp3-dd51567f1752a60afd93899c0e5450e3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
