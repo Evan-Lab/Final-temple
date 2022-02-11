@@ -1,0 +1,15 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 512, 301 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
