@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/find_the_temple_unlocked_smthing.ogg-81edba89efed91e3ba109ce053f009bf.oggstr"
+
+[deps]
+
+source_file="res://src/music/unlocked_smthing/find_the_temple_unlocked_smthing.ogg"
+dest_files=[ "res://.import/find_the_temple_unlocked_smthing.ogg-81edba89efed91e3ba109ce053f009bf.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
