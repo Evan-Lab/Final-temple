@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://labirynthe3.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bonus.tscn" type="PackedScene" id=2]
@@ -8,6 +8,9 @@
 
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 18, 80 )
+
+[sub_resource type="RectangleShape2D" id=41]
+extents = Vector2( 44.5, 13 )
 
 [sub_resource type="RectangleShape2D" id=39]
 extents = Vector2( 10.8243, 9.72727 )
@@ -8374,16 +8377,19 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D697" type="StaticBody2D" parent="."]
-position = Vector2( 153, -105 )
+position = Vector2( 153, -100 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D697"]
-
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D697"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 2.5, 9.83477e-07 )
+scale = Vector2( 0.169, 0.05 )
 texture = ExtResource( 6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D697"]
+position = Vector2( 2.5, 0 )
+shape = SubResource( 41 )
 
 [node name="lab-StaticBody2D698" type="StaticBody2D" parent="."]
 position = Vector2( 575, 49 )
