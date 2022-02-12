@@ -40,8 +40,8 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D"]
-position = Vector2( 4.05312e-06, -18.5 )
-scale = Vector2( 0.07, 0.3 )
+position = Vector2( -0.777498, -18.5 )
+scale = Vector2( 0.0729507, 0.3 )
 texture = ExtResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D"]
