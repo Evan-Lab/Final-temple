@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/to go est.png-617c9ba04306f7e7bf91c734ec91fe8a.stex"
+path="res://.import/texte playa.png-2137b36113b24568e4e1309c5e671964.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/to go est.png"
-dest_files=[ "res://.import/to go est.png-617c9ba04306f7e7bf91c734ec91fe8a.stex" ]
+source_file="res://src/pour léo/texte playa.png"
+dest_files=[ "res://.import/texte playa.png-2137b36113b24568e4e1309c5e671964.stex" ]
 
 [params]
 
