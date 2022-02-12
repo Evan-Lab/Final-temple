@@ -6,6 +6,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+visible = false
 position = Vector2( -825, 1048 )
 scale = Vector2( 21.132, 22.8208 )
 texture = ExtResource( 2 )
