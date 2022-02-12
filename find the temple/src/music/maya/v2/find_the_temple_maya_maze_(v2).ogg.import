@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/find_the_temple_maya_maze_(v2).ogg-917983c31a15f5c719a117c377cea7d2.oggstr"
+
+[deps]
+
+source_file="res://src/music/maya/v2/find_the_temple_maya_maze_(v2).ogg"
+dest_files=[ "res://.import/find_the_temple_maya_maze_(v2).ogg-917983c31a15f5c719a117c377cea7d2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
