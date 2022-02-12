@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/pour léo/fond/texte playa.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextePlaya" type="Sprite" parent="."]
+position = Vector2( 519.5, 300.75 )
+scale = Vector2( 1.51972, 1.19418 )
+texture = ExtResource( 1 )
