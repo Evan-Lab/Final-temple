@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=203 format=2]
+=======
+[gd_scene load_steps=46 format=2]
+>>>>>>> Stashed changes
 
 [ext_resource path="res://labirynthe3.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bonus.tscn" type="PackedScene" id=2]
@@ -9,6 +13,7 @@
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 18, 80 )
 
+<<<<<<< Updated upstream
 [sub_resource type="RectangleShape2D" id=93]
 extents = Vector2( 156, 13.5 )
 
@@ -562,6 +567,10 @@ extents = Vector2( 13, 100.5 )
 
 [sub_resource type="RectangleShape2D" id=38]
 extents = Vector2( 13.5, 52 )
+=======
+[sub_resource type="RectangleShape2D" id=38]
+extents = Vector2( 14, 104.5 )
+>>>>>>> Stashed changes
 
 [sub_resource type="RectangleShape2D" id=36]
 extents = Vector2( 140.5, 13.5 )
@@ -609,7 +618,29 @@ __meta__ = {
 "_edit_lock_": true
 }
 
+<<<<<<< Updated upstream
 [node name="bonus" parent="." instance=ExtResource( 2 )]
+=======
+[node name="lab-KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 384, 310 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Camera2D" type="Camera2D" parent="lab-KinematicBody2D"]
+current = true
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
+frames = SubResource( 9 )
+animation = "WEST"
+frame = 6
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
+position = Vector2( -6, -6 )
+shape = SubResource( 34 )
+>>>>>>> Stashed changes
 
 [node name="lab-StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2( 475, 187 )
@@ -9578,6 +9609,7 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D703"]
+<<<<<<< Updated upstream
 position = Vector2( 0, -37.557 )
 scale = Vector2( 0.05, 0.378034 )
 texture = ExtResource( 6 )
@@ -9585,6 +9617,21 @@ texture = ExtResource( 6 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D703"]
 position = Vector2( 0, -37.5 )
 shape = SubResource( 40 )
+=======
+position = Vector2( 3.78125, -32 )
+scale = Vector2( 0.0560958, 0.390977 )
+texture = ExtResource( 6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D703"]
+position = Vector2( 4, -31.5 )
+shape = SubResource( 38 )
+
+[node name="lab-StaticBody2D704" type="StaticBody2D" parent="."]
+position = Vector2( 278, 36 )
+__meta__ = {
+"_edit_group_": true
+}
+>>>>>>> Stashed changes
 
 [node name="lab-StaticBody2D704" type="StaticBody2D" parent="."]
 position = Vector2( 287, 36 )
