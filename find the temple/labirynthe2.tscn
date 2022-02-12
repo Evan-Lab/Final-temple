@@ -7,7 +7,6 @@
 extents = Vector2( 15.5, 68 )
 
 [node name="Node2D" type="Node2D"]
-visible = false
 
 [node name="Sprite" type="Sprite" parent="."]
 visible = false
@@ -42569,7 +42568,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1793" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1322, -2432 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42594,7 +42593,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1794" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1136, -2329 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42619,7 +42618,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1795" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1321, -2335 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42644,7 +42643,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1796" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1418, -2730 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42669,7 +42668,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1797" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1416, -2631 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42694,7 +42693,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1798" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1416, -2528 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42719,7 +42718,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1799" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1421, -2427 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42744,7 +42743,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1800" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1330, -2845 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42769,7 +42768,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1801" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1230, -3047 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42794,7 +42793,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1802" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1235, -2948 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42819,7 +42818,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1803" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1236, -2846 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42844,7 +42843,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1804" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1137, -2937 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42869,7 +42868,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1805" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( -361, -2739 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42894,7 +42893,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1806" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 950, -1932 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42919,7 +42918,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1807" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1133, -2028 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42944,7 +42943,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1808" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1047, -2138 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42969,7 +42968,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1809" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 854, -2123 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -42994,7 +42993,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1810" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 857, -2024 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43019,7 +43018,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1811" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 572, -2236 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43044,7 +43043,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1812" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 571, -2126 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43069,7 +43068,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1813" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 577, -2032 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43094,7 +43093,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1814" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 571, -1932 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43119,7 +43118,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1815" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 666, -2235 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43144,7 +43143,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1816" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 942, -2235 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43169,7 +43168,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1817" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 946, -2133 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43194,7 +43193,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1818" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1142, -2731 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43219,7 +43218,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1819" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 569, -3044 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43244,7 +43243,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1820" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 1048, -2934 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43269,7 +43268,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1821" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 762, -3028 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43294,7 +43293,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1822" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 762, -2942 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43319,7 +43318,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1823" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 763, -2849 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43344,7 +43343,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1824" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 196, -2421 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43369,7 +43368,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1825" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 193, -2318 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43394,7 +43393,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1826" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 194, -2229 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -43419,7 +43418,7 @@ position = Vector2( -1, 35 )
 shape = SubResource( 1 )
 
 [node name="StaticBody2D1827" type="StaticBody2D" parent="."]
-position = Vector2( 975, -2792 )
+position = Vector2( 475, -2317 )
 __meta__ = {
 "_edit_group_": true
 }
