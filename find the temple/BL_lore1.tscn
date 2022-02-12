@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://src/pour léo/texte fond.png" type="Texture" id=1]
+[ext_resource path="res://src/pour léo/fond/edd4342e6169afee29c70f66ca7a977d.png" type="Texture" id=1]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="TexteFond" type="Sprite" parent="."]
-position = Vector2( 527, 297.75 )
-scale = Vector2( 1.52394, 1.19794 )
+[node name="Edd4342E6169Afee29C70F66Ca7A977d" type="Sprite" parent="."]
+position = Vector2( 509, 296 )
+scale = Vector2( 1.68627, 1.47059 )
 texture = ExtResource( 1 )

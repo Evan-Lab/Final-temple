@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Back to the game.png-867bf30597819c16409de8180b4048b0.stex"
+path="res://.import/Exit.png-4eba484f0cc297a330917369ae9d5f8c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Menu intro/Back to the game.png"
-dest_files=[ "res://.import/Back to the game.png-867bf30597819c16409de8180b4048b0.stex" ]
+source_file="res://src/pour léo/sprites/Exit.png"
+dest_files=[ "res://.import/Exit.png-4eba484f0cc297a330917369ae9d5f8c.stex" ]
 
 [params]
 

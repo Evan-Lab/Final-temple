@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Find the temple intro1.png-bc2f4df611937c56bfff9c71c9813cd2.stex"
+path="res://.import/i to put a checkpoint.png-115bb7fe010dfac3c83d1d462cfa166d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/Menu intro/Find the temple intro1.png"
-dest_files=[ "res://.import/Find the temple intro1.png-bc2f4df611937c56bfff9c71c9813cd2.stex" ]
+source_file="res://src/pour léo/sprites/i to put a checkpoint.png"
+dest_files=[ "res://.import/i to put a checkpoint.png-115bb7fe010dfac3c83d1d462cfa166d.stex" ]
 
 [params]
 
