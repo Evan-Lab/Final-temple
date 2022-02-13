@@ -1,4 +1,4 @@
-[gd_scene load_steps=359 format=2]
+[gd_scene load_steps=377 format=2]
 
 [ext_resource path="res://labirynthe3.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bonus.tscn" type="PackedScene" id=2]
@@ -8,6 +8,9 @@
 
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 18, 80 )
+
+[sub_resource type="RectangleShape2D" id=388]
+extents = Vector2( 10, 170 )
 
 [sub_resource type="RectangleShape2D" id=387]
 extents = Vector2( 10, 73 )
@@ -30,8 +33,26 @@ extents = Vector2( 10, 114 )
 [sub_resource type="RectangleShape2D" id=321]
 extents = Vector2( 10, 110.5 )
 
+[sub_resource type="RectangleShape2D" id=394]
+extents = Vector2( 10, 122 )
+
+[sub_resource type="RectangleShape2D" id=395]
+extents = Vector2( 10, 171.5 )
+
 [sub_resource type="RectangleShape2D" id=386]
 extents = Vector2( 10, 120 )
+
+[sub_resource type="RectangleShape2D" id=396]
+extents = Vector2( 10, 162 )
+
+[sub_resource type="RectangleShape2D" id=398]
+extents = Vector2( 10, 118 )
+
+[sub_resource type="RectangleShape2D" id=399]
+extents = Vector2( 10, 115.5 )
+
+[sub_resource type="RectangleShape2D" id=403]
+extents = Vector2( 9, 258.5 )
 
 [sub_resource type="RectangleShape2D" id=367]
 extents = Vector2( 10, 110.5 )
@@ -47,6 +68,12 @@ extents = Vector2( 193.5, 14 )
 
 [sub_resource type="RectangleShape2D" id=318]
 extents = Vector2( 10, 152.5 )
+
+[sub_resource type="RectangleShape2D" id=400]
+extents = Vector2( 10, 228.5 )
+
+[sub_resource type="RectangleShape2D" id=401]
+extents = Vector2( 10, 219 )
 
 [sub_resource type="RectangleShape2D" id=326]
 extents = Vector2( 10, 106 )
@@ -65,6 +92,12 @@ extents = Vector2( 239.5, 13 )
 
 [sub_resource type="RectangleShape2D" id=90]
 extents = Vector2( 13, 91 )
+
+[sub_resource type="RectangleShape2D" id=402]
+extents = Vector2( 10, 218.5 )
+
+[sub_resource type="RectangleShape2D" id=404]
+extents = Vector2( 10, 114.5 )
 
 [sub_resource type="RectangleShape2D" id=301]
 extents = Vector2( 10, 109.5 )
@@ -95,6 +128,9 @@ extents = Vector2( 10, 102 )
 
 [sub_resource type="RectangleShape2D" id=385]
 extents = Vector2( 10, 220 )
+
+[sub_resource type="RectangleShape2D" id=405]
+extents = Vector2( 10, 214.5 )
 
 [sub_resource type="RectangleShape2D" id=327]
 extents = Vector2( 10, 118.5 )
@@ -956,6 +992,24 @@ extents = Vector2( 10, 109 )
 [sub_resource type="RectangleShape2D" id=307]
 extents = Vector2( 10, 108.5 )
 
+[sub_resource type="RectangleShape2D" id=389]
+extents = Vector2( 10, 68.5 )
+
+[sub_resource type="RectangleShape2D" id=390]
+extents = Vector2( 10, 116.5 )
+
+[sub_resource type="RectangleShape2D" id=391]
+extents = Vector2( 10, 129 )
+
+[sub_resource type="RectangleShape2D" id=392]
+extents = Vector2( 10, 80 )
+
+[sub_resource type="RectangleShape2D" id=397]
+extents = Vector2( 10, 72.5 )
+
+[sub_resource type="RectangleShape2D" id=393]
+extents = Vector2( 10, 112.5 )
+
 [sub_resource type="RectangleShape2D" id=266]
 extents = Vector2( 10, 167.5 )
 
@@ -1195,15 +1249,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D11" type="StaticBody2D" parent="."]
-position = Vector2( -1784, -1681 )
+position = Vector2( -1785, -1797 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D11"]
+position = Vector2( 0, 2 )
+shape = SubResource( 388 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D11"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 3.49999 )
+scale = Vector2( 0.05, 0.637 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D12" type="StaticBody2D" parent="."]
@@ -1637,15 +1694,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D46" type="StaticBody2D" parent="."]
-position = Vector2( -1787, -1268 )
+position = Vector2( -1787, -1303 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D46"]
+position = Vector2( 0, -25 )
+shape = SubResource( 394 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D46"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -25.5 )
+scale = Vector2( 0.05, 0.461 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D47" type="StaticBody2D" parent="."]
@@ -1661,15 +1721,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D48" type="StaticBody2D" parent="."]
-position = Vector2( -1971, -1706 )
+position = Vector2( -1974, -1727 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D48"]
+position = Vector2( 0, -62.5 )
+shape = SubResource( 395 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D48"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -60.5001 )
+scale = Vector2( 0.05, 0.66 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D49" type="StaticBody2D" parent="."]
@@ -1712,15 +1775,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D52" type="StaticBody2D" parent="."]
-position = Vector2( -1872, -1472 )
+position = Vector2( -1878, -1530 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D52"]
+position = Vector2( 0, -58 )
+shape = SubResource( 396 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D52"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -58.5 )
+scale = Vector2( 0.05, 0.610902 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D53" type="StaticBody2D" parent="."]
@@ -1736,15 +1802,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D54" type="StaticBody2D" parent="."]
-position = Vector2( -1985, -1460 )
+position = Vector2( -1977, -1465 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D54"]
+position = Vector2( 0, 27 )
+shape = SubResource( 398 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D54"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 26.5 )
+scale = Vector2( 0.05, 0.43797 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D55" type="StaticBody2D" parent="."]
@@ -1754,9 +1823,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D55"]
+position = Vector2( 0, 2.5 )
+shape = SubResource( 399 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D55"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 3 )
+scale = Vector2( 0.05, 0.447368 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D56" type="StaticBody2D" parent="."]
@@ -1892,15 +1964,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D67" type="StaticBody2D" parent="."]
-position = Vector2( -2262, -1302 )
+position = Vector2( -2259, -1317 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D67"]
+position = Vector2( 1, -158.5 )
+shape = SubResource( 403 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D67"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -158.5 )
+scale = Vector2( 0.05, 0.983082 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D68" type="StaticBody2D" parent="."]
@@ -2033,9 +2108,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D106"]
+position = Vector2( 0, -7.5 )
+shape = SubResource( 400 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D106"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -8.00008 )
+scale = Vector2( 0.05, 0.865 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D107" type="StaticBody2D" parent="."]
@@ -2063,15 +2141,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D109" type="StaticBody2D" parent="."]
-position = Vector2( -1877, -909 )
+position = Vector2( -1884, -951 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D109"]
+position = Vector2( 0, -69 )
+shape = SubResource( 401 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D109"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -67 )
+scale = Vector2( 0.05, 0.827068 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D110" type="StaticBody2D" parent="."]
@@ -2423,9 +2504,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D137"]
+position = Vector2( 0, 83.5 )
+shape = SubResource( 402 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D137"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 83 )
+scale = Vector2( 0.05, 0.823 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D138" type="StaticBody2D" parent="."]
@@ -2453,15 +2537,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D140" type="StaticBody2D" parent="."]
-position = Vector2( -2354, -1168 )
+position = Vector2( -2361, -1137 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D140"]
+position = Vector2( 0, 9.5 )
+shape = SubResource( 404 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D140"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 7.99997 )
+scale = Vector2( 0.05, 0.447369 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D141" type="StaticBody2D" parent="."]
@@ -3839,15 +3926,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D225" type="StaticBody2D" parent="."]
-position = Vector2( -2354, -457 )
+position = Vector2( -2357, -596 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D225"]
+position = Vector2( 0, -15.5 )
+shape = SubResource( 405 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D225"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -15 )
+scale = Vector2( 0.05, 0.805 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D226" type="StaticBody2D" parent="."]
@@ -11580,15 +11670,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D806" type="StaticBody2D" parent="."]
-position = Vector2( -1885, -1990 )
+position = Vector2( -1878, -1993 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D806"]
+position = Vector2( 0, 0.5 )
+shape = SubResource( 389 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D806"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 2 )
+scale = Vector2( 0.05, 0.263 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D807" type="StaticBody2D" parent="."]
@@ -11640,15 +11733,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D811" type="StaticBody2D" parent="."]
-position = Vector2( -1985, -2200 )
+position = Vector2( -1979, -2206 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D811"]
+position = Vector2( 0, 57.5 )
+shape = SubResource( 390 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D811"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 58.5001 )
+scale = Vector2( 0.05, 0.43797 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D812" type="StaticBody2D" parent="."]
@@ -11664,15 +11760,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D813" type="StaticBody2D" parent="."]
-position = Vector2( -2175, -2096 )
+position = Vector2( -2169, -2091 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D813"]
+position = Vector2( 0, 44 )
+shape = SubResource( 391 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D813"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 45.5001 )
+scale = Vector2( 0.05, 0.483 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D814" type="StaticBody2D" parent="."]
@@ -11688,7 +11787,7 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D815" type="StaticBody2D" parent="."]
-position = Vector2( -2327, -2038 )
+position = Vector2( -2327, -2045 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -11724,15 +11823,18 @@ scale = Vector2( 0.0704459, 0.0272556 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D818" type="StaticBody2D" parent="."]
-position = Vector2( -2255, -2190 )
+position = Vector2( -2254, -2203 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D818"]
+position = Vector2( 0, 9 )
+shape = SubResource( 392 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D818"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 8.9999 )
+scale = Vector2( 0.05, 0.305 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D819" type="StaticBody2D" parent="."]
@@ -11754,9 +11856,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D820"]
+position = Vector2( 0, 7.5 )
+shape = SubResource( 397 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D820"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, 7.0001 )
+scale = Vector2( 0.05, 0.274 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D821" type="StaticBody2D" parent="."]
@@ -11766,9 +11871,12 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D821"]
+position = Vector2( 0, -42.5 )
+shape = SubResource( 393 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D821"]
-scale = Vector2( 0.0704459, 0.0272556 )
+position = Vector2( 0, -43.0001 )
+scale = Vector2( 0.05, 0.425 )
 texture = ExtResource( 6 )
 
 [node name="lab-StaticBody2D822" type="StaticBody2D" parent="."]
