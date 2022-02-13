@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/narateur1.png-dde4818a7c068c39c27e1b23b608c4ff.stex"
+path="res://.import/paragrahe 8.png-914ef693aeb834a4fe574824dfcfd245.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/fond/narateur1.png"
-dest_files=[ "res://.import/narateur1.png-dde4818a7c068c39c27e1b23b608c4ff.stex" ]
+source_file="res://src/pour léo/texte/paragrahe 8.png"
+dest_files=[ "res://.import/paragrahe 8.png-914ef693aeb834a4fe574824dfcfd245.stex" ]
 
 [params]
 

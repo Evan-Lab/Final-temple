@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pour la 7.png-19ffa57878f1910f6029131dee891c8e.stex"
+path="res://.import/pour la 6.png-76649f08caa001b5a87c13677d4fe0cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/fond/pour la 7.png"
-dest_files=[ "res://.import/pour la 7.png-19ffa57878f1910f6029131dee891c8e.stex" ]
+source_file="res://src/pour léo/fond/fond plage/pour la 6.png"
+dest_files=[ "res://.import/pour la 6.png-76649f08caa001b5a87c13677d4fe0cd.stex" ]
 
 [params]
 
