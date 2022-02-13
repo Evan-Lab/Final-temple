@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/find_the_temple_button_click_and_wall_move.mp3-2a75d94540d420013f2e194eba67408a.mp3str"
+
+[deps]
+
+source_file="res://src/music/butt_and_wall/find_the_temple_button_click_and_wall_move.mp3"
+dest_files=[ "res://.import/find_the_temple_button_click_and_wall_move.mp3-2a75d94540d420013f2e194eba67408a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

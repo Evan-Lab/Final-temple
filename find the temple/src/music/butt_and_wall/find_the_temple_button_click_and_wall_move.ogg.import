@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/find_the_temple_button_click_and_wall_move.ogg-62c3b82e9af838b33d59189bdfc6a452.oggstr"
+
+[deps]
+
+source_file="res://src/music/butt_and_wall/find_the_temple_button_click_and_wall_move.ogg"
+dest_files=[ "res://.import/find_the_temple_button_click_and_wall_move.ogg-62c3b82e9af838b33d59189bdfc6a452.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

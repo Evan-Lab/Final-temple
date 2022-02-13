@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/find_the_temple_button_click_and_wall_move.wav-5b0c28002a6148ae00410d940a0a9ec2.sample"
+
+[deps]
+
+source_file="res://src/music/butt_and_wall/find_the_temple_button_click_and_wall_move.wav"
+dest_files=[ "res://.import/find_the_temple_button_click_and_wall_move.wav-5b0c28002a6148ae00410d940a0a9ec2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
