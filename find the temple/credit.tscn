@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://buttons/Button_last_menu.gd" type="Script" id=1]
+[ext_resource path="res://src/pour léo/fond/fond temple/jersey-viscose-uni-couleur-noir-profond.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Jersey-viscose-uni-couleur-noir-profond" type="Sprite" parent="."]
+position = Vector2( 520.5, 323 )
+scale = Vector2( 1.765, 1.11 )
+texture = ExtResource( 2 )
+
+[node name="Button_last_menu" type="Button" parent="."]
+margin_right = 12.0
+margin_bottom = 20.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button_last_menu" to="Button_last_menu" method="_on_Button_last_menu_pressed"]
