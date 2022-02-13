@@ -23,7 +23,14 @@ func _physics_process(delta):
 	move_and_slide(velocity, Vector2(0, -1))
 
 #func _on_CollisionShape2D_script_changed():
+<<<<<<< HEAD
 		#if $AudioStreamPlayer.playing:
 		#	AudioStreamPlayer.stop()
 		#else:
 			#AudioStreamPlayer.play
+=======
+#		if $AudioStreamPlayer.playing:
+#			AudioStreamPlayer.stop()
+#		else:
+#			AudioStreamPlayer.play
+>>>>>>> 6e4d7fc8a8493632cb03d4b713b68c04d8508b19
