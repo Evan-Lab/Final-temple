@@ -1,3 +1,35 @@
-[gd_scene format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Button_AL_continue3.gd" type="Script" id=1]
+[ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=2]
+[ext_resource path="res://src/pour léo/fond/fond temple/narateur.png" type="Texture" id=3]
+[ext_resource path="res://src/pour léo/Paragraphe 11.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="Narateur" type="Sprite" parent="."]
+position = Vector2( 514, 301.5 )
+scale = Vector2( 2.08871, 1.89198 )
+texture = ExtResource( 3 )
+
+[node name="Paragraphe11" type="Sprite" parent="Narateur"]
+position = Vector2( 4.30887, 62.1044 )
+scale = Vector2( 0.281103, 0.468294 )
+texture = ExtResource( 4 )
+
+[node name="Button_AL_continue3" type="Button" parent="Narateur"]
+margin_left = 6.22394
+margin_top = 31.9772
+margin_right = 128.224
+margin_bottom = 86.9772
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PressSpaceToContinue" type="Sprite" parent="Narateur/Button_AL_continue3"]
+position = Vector2( 86.1775, 45.9836 )
+scale = Vector2( 0.166774, 0.217321 )
+texture = ExtResource( 2 )
+
+[connection signal="pressed" from="Narateur/Button_AL_continue3" to="Narateur/Button_AL_continue3" method="_on_Button_AL_continue3_pressed"]

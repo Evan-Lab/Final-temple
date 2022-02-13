@@ -1,3 +1,35 @@
-[gd_scene format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Button_AL_continue4.gd" type="Script" id=1]
+[ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=2]
+[ext_resource path="res://src/pour léo/fond/fond temple/temple ouais.png" type="Texture" id=3]
+[ext_resource path="res://src/pour léo/Paragraphe 11.png" type="Texture" id=4]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="TempleOuais" type="Sprite" parent="."]
+position = Vector2( 520.5, 302 )
+scale = Vector2( 2.13911, 1.92593 )
+texture = ExtResource( 3 )
+
+[node name="Paragraphe11" type="Sprite" parent="TempleOuais"]
+position = Vector2( 66.1489, 16.6154 )
+scale = Vector2( 0.199098, 0.324606 )
+texture = ExtResource( 4 )
+
+[node name="Button_AL_continue4" type="Button" parent="TempleOuais"]
+margin_left = 48.0
+margin_top = -4.0
+margin_right = 161.0
+margin_bottom = 48.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PressSpaceToContinue" type="Sprite" parent="TempleOuais/Button_AL_continue4"]
+position = Vector2( 80.3242, 48.1346 )
+scale = Vector2( 0.16034, 0.230255 )
+texture = ExtResource( 2 )
+
+[connection signal="pressed" from="TempleOuais/Button_AL_continue4" to="TempleOuais/Button_AL_continue4" method="_on_Button_AL_continue4_pressed"]

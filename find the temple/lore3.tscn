@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://src/pour léo/fond/texte fond.png" type="Texture" id=1]
+[ext_resource path="res://src/pour léo/fond/fond plage/texte fond.png" type="Texture" id=1]
 [ext_resource path="res://buttons/Button_menu3.gd" type="Script" id=2]
 [ext_resource path="res://buttons/Button_continue3.gd" type="Script" id=3]
 [ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=4]
