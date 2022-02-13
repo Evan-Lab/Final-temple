@@ -8,7 +8,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Epitech" type="Sprite" parent="."]
-position = Vector2( 688.75, 445.75 )
+position = Vector2( 680, 437 )
 scale = Vector2( 1.24433, 1.10451 )
 texture = ExtResource( 1 )
 

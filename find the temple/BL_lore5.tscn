@@ -7,7 +7,7 @@
 [ext_resource path="res://buttons/Button_menu5.gd" type="Script" id=5]
 [ext_resource path="res://src/pour léo/texte/paragraphe 4.png" type="Texture" id=6]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 
 [node name="11-Plage-Gorgona" type="Sprite" parent="."]
 position = Vector2( 537, 299 )

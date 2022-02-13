@@ -7,7 +7,7 @@
 [ext_resource path="res://src/pour léo/texte/paragraphe 5.png" type="Texture" id=5]
 [ext_resource path="res://src/pour léo/fond/fond plage/pour la 6.png" type="Texture" id=6]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 
 [node name="PourLa6" type="Sprite" parent="."]
 position = Vector2( 519, 301.75 )
