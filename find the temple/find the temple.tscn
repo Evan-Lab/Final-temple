@@ -31,8 +31,10 @@ scale = Vector2( 0.974286, 0.914 )
 texture = ExtResource( 3 )
 
 [node name="Button_start" type="Button" parent="."]
-margin_right = 12.0
-margin_bottom = 20.0
+margin_left = 557.0
+margin_top = 329.0
+margin_right = 762.0
+margin_bottom = 457.0
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
