@@ -240,7 +240,7 @@ __meta__ = {
 }
 
 [node name="lab-KinematicBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( -1078, -3275 )
+position = Vector2( -1072, -3080 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -252,7 +252,7 @@ current = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
 frames = SubResource( 34 )
 animation = "WEST"
-frame = 2
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
@@ -395,6 +395,7 @@ position = Vector2( 2093, 688 )
 [node name="Sprite" type="Sprite" parent="WALL1/KinematicBody2D"]
 position = Vector2( -141, -36.0001 )
 scale = Vector2( 16.625, 30.375 )
+z_index = 1
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL1/KinematicBody2D"]
@@ -421,6 +422,7 @@ position = Vector2( 57, 1659 )
 position = Vector2( 111.203, -140.624 )
 rotation = 1.5708
 scale = Vector2( 17.1897, 51.3032 )
+z_index = 1
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL2/KinematicBody2D"]
@@ -446,6 +448,7 @@ position = Vector2( -3662, 809 )
 [node name="Sprite" type="Sprite" parent="WALL3/KinematicBody2D"]
 position = Vector2( -116.5, -140 )
 scale = Vector2( 17.3906, 37.3125 )
+z_index = 1
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL3/KinematicBody2D"]
@@ -472,6 +475,7 @@ position = Vector2( 910, -2738 )
 position = Vector2( 165, -116 )
 rotation = 1.5708
 scale = Vector2( 15.9806, 47.954 )
+z_index = 1
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL4/KinematicBody2D"]
