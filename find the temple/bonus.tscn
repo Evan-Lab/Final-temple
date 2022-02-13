@@ -243,7 +243,11 @@ current = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
 frames = SubResource( 34 )
 animation = "WEST"
+<<<<<<< HEAD
 frame = 3
+=======
+frame = 2
+>>>>>>> cd9a12bf232f0e7b060764d4ece986fff657b8c8
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
