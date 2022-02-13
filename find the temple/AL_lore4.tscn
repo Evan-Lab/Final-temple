@@ -5,7 +5,7 @@
 [ext_resource path="res://src/pour léo/fond/fond temple/temple ouais.png" type="Texture" id=3]
 [ext_resource path="res://src/pour léo/Paragraphe 11.png" type="Texture" id=4]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 
 [node name="TempleOuais" type="Sprite" parent="."]
 position = Vector2( 520.5, 302 )

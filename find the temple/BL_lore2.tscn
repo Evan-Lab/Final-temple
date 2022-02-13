@@ -7,7 +7,7 @@
 [ext_resource path="res://src/pour léo/fond/fond plage/narateur1.png" type="Texture" id=5]
 [ext_resource path="res://buttons/Button_menu2.gd" type="Script" id=6]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 position = Vector2( -5, -7 )
 
 [node name="Narateur1" type="Sprite" parent="."]

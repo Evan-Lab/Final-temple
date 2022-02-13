@@ -5,10 +5,10 @@
 [ext_resource path="res://src/pour léo/fond/fond temple/temple texte 2.png" type="Texture" id=3]
 [ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=4]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 
 [node name="TempleTexte2" type="Sprite" parent="."]
-position = Vector2( 519.5, 303 )
+position = Vector2( 519, 304 )
 scale = Vector2( 2.10685, 1.89506 )
 texture = ExtResource( 3 )
 
@@ -28,8 +28,8 @@ scale = Vector2( 0.176499, 0.212684 )
 texture = ExtResource( 4 )
 
 [node name="Paragraphe7" type="Sprite" parent="TempleTexte2"]
-position = Vector2( 5.93304, 69.6547 )
-scale = Vector2( 0.307726, 0.477029 )
+position = Vector2( -1.24571, 69.6547 )
+scale = Vector2( 0.300889, 0.477029 )
 texture = ExtResource( 2 )
 
 [connection signal="pressed" from="TempleTexte2/Button_AL_continue1" to="TempleTexte2/Button_AL_continue1" method="_on_Button_AL_continue1_pressed"]
