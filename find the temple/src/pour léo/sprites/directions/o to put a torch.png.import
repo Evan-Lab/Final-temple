@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/titre4.png-82f730430c6bcfdf4413ca32fb906a16.stex"
+path="res://.import/o to put a torch.png-ca44f561dac35236ffa4a3624c682fe0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/titre4.png"
-dest_files=[ "res://.import/titre4.png-82f730430c6bcfdf4413ca32fb906a16.stex" ]
+source_file="res://src/pour léo/sprites/directions/o to put a torch.png"
+dest_files=[ "res://.import/o to put a torch.png-ca44f561dac35236ffa4a3624c682fe0.stex" ]
 
 [params]
 

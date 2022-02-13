@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/titre3.png-c4c816ff3de89de20515ad7098b7e85b.stex"
+path="res://.import/flame.png-b8b3a18898d54126096e255146677c25.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/titre3.png"
-dest_files=[ "res://.import/titre3.png-c4c816ff3de89de20515ad7098b7e85b.stex" ]
+source_file="res://src/img/flame.png"
+dest_files=[ "res://.import/flame.png-b8b3a18898d54126096e255146677c25.stex" ]
 
 [params]
 
