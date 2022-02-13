@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/texte playa.png-4c11711005840cf00997a358d9b85978.stex"
+path="res://.import/image.png-fbaeff8e03c7d127a90738d46a79a2c6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/pour léo/fond/texte playa.png"
-dest_files=[ "res://.import/texte playa.png-4c11711005840cf00997a358d9b85978.stex" ]
+source_file="res://src/pour léo/fond/fond temple/image.png"
+dest_files=[ "res://.import/image.png-fbaeff8e03c7d127a90738d46a79a2c6.stex" ]
 
 [params]
 

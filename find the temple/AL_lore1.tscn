@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://buttons/Button_AL_continue1.gd" type="Script" id=1]
+[ext_resource path="res://src/pour léo/texte/paragraphe 7.png" type="Texture" id=2]
+[ext_resource path="res://src/pour léo/fond/fond temple/temple texte 2.png" type="Texture" id=3]
+[ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=4]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TempleTexte2" type="Sprite" parent="."]
+position = Vector2( 519.5, 303 )
+scale = Vector2( 2.10685, 1.89506 )
+texture = ExtResource( 3 )
+
+[node name="Button_AL_continue1" type="Button" parent="TempleTexte2"]
+margin_left = 13.0
+margin_top = 52.0
+margin_right = 141.0
+margin_bottom = 102.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PressSpaceToContinue" type="Sprite" parent="TempleTexte2/Button_AL_continue1"]
+position = Vector2( 89.7599, 45.6221 )
+scale = Vector2( 0.176499, 0.212684 )
+texture = ExtResource( 4 )
+
+[node name="Paragraphe7" type="Sprite" parent="TempleTexte2"]
+position = Vector2( 5.93304, 69.6547 )
+scale = Vector2( 0.307726, 0.477029 )
+texture = ExtResource( 2 )
+
+[connection signal="pressed" from="TempleTexte2/Button_AL_continue1" to="TempleTexte2/Button_AL_continue1" method="_on_Button_AL_continue1_pressed"]
