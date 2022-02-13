@@ -1,4 +1,4 @@
-[gd_scene load_steps=392 format=2]
+[gd_scene load_steps=393 format=2]
 
 [ext_resource path="res://labirynthe3.tscn" type="PackedScene" id=1]
 [ext_resource path="res://bonus.tscn" type="PackedScene" id=2]
@@ -137,6 +137,9 @@ extents = Vector2( 10, 158 )
 
 [sub_resource type="RectangleShape2D" id=419]
 extents = Vector2( 10, 164.5 )
+
+[sub_resource type="RectangleShape2D" id=421]
+extents = Vector2( 10, 127.5 )
 
 [sub_resource type="RectangleShape2D" id=420]
 extents = Vector2( 10, 263.5 )
@@ -3458,6 +3461,8 @@ __meta__ = {
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D181"]
+position = Vector2( 0, -21.5 )
+shape = SubResource( 421 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D181"]
 position = Vector2( 0, -22 )
