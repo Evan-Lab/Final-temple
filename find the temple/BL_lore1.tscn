@@ -1,10 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://src/pour léo/fond/edd4342e6169afee29c70f66ca7a977d.png" type="Texture" id=1]
 [ext_resource path="res://src/pour léo/texte/Intro 1er paragraphe.png" type="Texture" id=2]
 [ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=3]
-[ext_resource path="res://src/pour léo/sprites/Menu.png" type="Texture" id=4]
-[ext_resource path="res://buttons/Button_menu1.gd" type="Script" id=5]
 [ext_resource path="res://buttons/Button_continue1.gd" type="Script" id=6]
 
 [node name="Node2D3" type="Node2D"]
@@ -19,35 +17,19 @@ position = Vector2( -128.093, -107.44 )
 scale = Vector2( 0.138796, 0.251373 )
 texture = ExtResource( 2 )
 
-[node name="Button_menu1" type="Button" parent="Edd4342E6169Afee29C70F66Ca7A977d"]
-margin_left = -276.0
-margin_top = -20.0
-margin_right = -102.0
-margin_bottom = 58.0
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Menu" type="Sprite" parent="Edd4342E6169Afee29C70F66Ca7A977d/Button_menu1"]
-position = Vector2( 86.2326, 61.48 )
-scale = Vector2( 0.394666, 0.42067 )
-texture = ExtResource( 4 )
-
 [node name="Button_continue1" type="Button" parent="Edd4342E6169Afee29C70F66Ca7A977d"]
-margin_left = -277.0
-margin_top = 90.0
-margin_right = -107.0
-margin_bottom = 170.0
+margin_left = -285.463
+margin_top = 42.2762
+margin_right = -115.463
+margin_bottom = 122.276
 script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="PressSpaceToContinue" type="Sprite" parent="Edd4342E6169Afee29C70F66Ca7A977d/Button_continue1"]
-position = Vector2( 121.035, 73.8799 )
+position = Vector2( 123.808, 69.1183 )
 scale = Vector2( 0.236091, 0.329413 )
 texture = ExtResource( 3 )
 
-[connection signal="pressed" from="Edd4342E6169Afee29C70F66Ca7A977d/Button_menu1" to="Edd4342E6169Afee29C70F66Ca7A977d/Button_menu1" method="_on_Button_menu1_pressed"]
 [connection signal="pressed" from="Edd4342E6169Afee29C70F66Ca7A977d/Button_continue1" to="Edd4342E6169Afee29C70F66Ca7A977d/Button_continue1" method="_on_Button_continue1_pressed"]
