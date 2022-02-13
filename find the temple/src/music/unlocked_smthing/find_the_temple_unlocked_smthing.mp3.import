@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/find_the_temple_unlocked_smthing.mp3-ccf879deaefeef64351b296fe0865d4e.mp3str"
+
+[deps]
+
+source_file="res://src/music/unlocked_smthing/find_the_temple_unlocked_smthing.mp3"
+dest_files=[ "res://.import/find_the_temple_unlocked_smthing.mp3-ccf879deaefeef64351b296fe0865d4e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

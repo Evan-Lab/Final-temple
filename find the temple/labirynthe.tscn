@@ -686,6 +686,7 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="."]
+visible = false
 position = Vector2( -825, 1048 )
 scale = Vector2( 21.132, 22.8208 )
 texture = ExtResource( 7 )
@@ -694,7 +695,6 @@ __meta__ = {
 }
 
 [node name="bonus" parent="." instance=ExtResource( 2 )]
-visible = false
 position = Vector2( -459, 209 )
 
 [node name="lab-StaticBody2D" type="StaticBody2D" parent="."]
@@ -11582,7 +11582,6 @@ __meta__ = {
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-StaticBody2D855"]
 position = Vector2( 80.001, -39.999 )
-scale = Vector2( 1, 1 )
 shape = SubResource( 236 )
 
 [node name="Sprite" type="Sprite" parent="lab-StaticBody2D855"]

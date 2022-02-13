@@ -1,3 +1,53 @@
-[gd_scene format=2]
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://buttons/Button_menu6.gd" type="Script" id=1]
+[ext_resource path="res://buttons/Button_continue06.gd" type="Script" id=2]
+[ext_resource path="res://src/pour léo/sprites/Menu.png" type="Texture" id=3]
+[ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=4]
+[ext_resource path="res://src/pour léo/texte/paragraphe 5.png" type="Texture" id=5]
+[ext_resource path="res://src/pour léo/fond/pour la 6.png" type="Texture" id=6]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="PourLa6" type="Sprite" parent="."]
+position = Vector2( 519, 301.75 )
+scale = Vector2( 1.46197, 1.13415 )
+texture = ExtResource( 6 )
+
+[node name="Paragraphe5" type="Sprite" parent="PourLa6"]
+position = Vector2( 12.6662, -33.8602 )
+scale = Vector2( 0.434845, 0.69909 )
+texture = ExtResource( 5 )
+
+[node name="Button_menu6" type="Button" parent="PourLa6"]
+margin_left = 36.0
+margin_top = 6.0
+margin_right = 226.0
+margin_bottom = 86.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="Sprite" parent="PourLa6/Button_menu6"]
+position = Vector2( 91.9094, 53.2957 )
+scale = Vector2( 0.447949, 0.403624 )
+texture = ExtResource( 3 )
+
+[node name="Button_continue06" type="Button" parent="PourLa6"]
+margin_left = 44.4605
+margin_top = 128.07
+margin_right = 231.461
+margin_bottom = 216.07
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PressSpaceToContinue" type="Sprite" parent="PourLa6/Button_continue06"]
+position = Vector2( 131.329, 75.828 )
+scale = Vector2( 0.254636, 0.343462 )
+texture = ExtResource( 4 )
+
+[connection signal="pressed" from="PourLa6/Button_menu6" to="PourLa6/Button_menu6" method="_on_Button_menu6_pressed"]
+[connection signal="pressed" from="PourLa6/Button_continue06" to="PourLa6/Button_continue06" method="_on_Button_continue06_pressed"]
