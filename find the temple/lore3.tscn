@@ -25,8 +25,8 @@ __meta__ = {
 }
 
 [node name="Menu" type="Sprite" parent="TexteFond/Button_menu3"]
-position = Vector2( 99.0386, 64.5546 )
-scale = Vector2( 0.400871, 0.474531 )
+position = Vector2( 92.3473, 63.7057 )
+scale = Vector2( 0.408199, 0.474531 )
 texture = ExtResource( 5 )
 
 [node name="Button_continue3" type="Button" parent="TexteFond"]
