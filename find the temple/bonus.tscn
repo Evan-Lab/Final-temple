@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=51 format=2]
 
 [ext_resource path="res://src/img/lab.png" type="Texture" id=1]
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
@@ -6,8 +6,8 @@
 [ext_resource path="res://src/img/above_NORTH.png" type="Texture" id=4]
 [ext_resource path="res://src/img/above_WEST.png" type="Texture" id=5]
 [ext_resource path="res://src/img/above_SOUTH.png" type="Texture" id=6]
-[ext_resource path="res://icon.png" type="Texture" id=7]
-[ext_resource path="res://CollisionShape2D.gd" type="Script" id=8]
+[ext_resource path="res://src/music/maya/v2/find_the_temple_maya_maze_(v2).mp3" type="AudioStream" id=7]
+[ext_resource path="res://src/music/jungle/v2/find_the_temple_jungle_maze_(v2).mp3" type="AudioStream" id=8]
 
 [sub_resource type="AtlasTexture" id=26]
 flags = 4
@@ -195,13 +195,34 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=35]
 extents = Vector2( 15, 15 )
 
-[sub_resource type="RectangleShape2D" id=36]
-extents = Vector2( 83, 84.5 )
+[sub_resource type="RectangleShape2D" id=37]
+extents = Vector2( 1387.5, 1163 )
+
+[sub_resource type="RectangleShape2D" id=38]
+extents = Vector2( 2040, 1283.25 )
+
+[sub_resource type="RectangleShape2D" id=39]
+extents = Vector2( 1635.5, 1536.5 )
+
+[sub_resource type="RectangleShape2D" id=40]
+extents = Vector2( 1945, 1531 )
+
+[sub_resource type="RectangleShape2D" id=41]
+extents = Vector2( 1663, 1241.5 )
+
+[sub_resource type="RectangleShape2D" id=42]
+extents = Vector2( 1948.5, 1244 )
+
+[sub_resource type="RectangleShape2D" id=43]
+extents = Vector2( 1946, 1308 )
+
+[sub_resource type="RectangleShape2D" id=44]
+extents = Vector2( 1646.5, 1290 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -93, 104 )
 
 [node name="Sprite" type="Sprite" parent="."]
-visible = false
 position = Vector2( -825, 1048 )
 scale = Vector2( 21.132, 22.8208 )
 texture = ExtResource( 1 )
@@ -210,7 +231,7 @@ __meta__ = {
 }
 
 [node name="lab-KinematicBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( 422, 215 )
+position = Vector2( -878, 317 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -222,22 +243,169 @@ current = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
 frames = SubResource( 34 )
 animation = "WEST"
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
 position = Vector2( -6, -6 )
 shape = SubResource( 35 )
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+[node name="Music de départ" type="Area2D" parent="."]
+position = Vector2( -888, 396 )
+audio_bus_override = true
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="Sprite" type="Sprite" parent="KinematicBody2D"]
-position = Vector2( 748, 234 )
-scale = Vector2( 2.64063, 2.64063 )
-texture = ExtResource( 7 )
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Music de départ"]
+position = Vector2( 0, 3 )
+stream = ExtResource( 8 )
+autoplay = true
+max_distance = 2500.0
+__meta__ = {
+"_edit_group_": true
+}
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
-position = Vector2( 747, 234 )
-shape = SubResource( 36 )
-script = ExtResource( 8 )
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Music de départ"]
+position = Vector2( 8.5, -161 )
+shape = SubResource( 37 )
+disabled = true
+__meta__ = {
+"_edit_group_": true
+}
 
-[connection signal="script_changed" from="KinematicBody2D/CollisionShape2D" to="lab-KinematicBody2D" method="_on_CollisionShape2D_script_changed"]
+[node name="Music temple Maya" type="Area2D" parent="."]
+position = Vector2( -277, -1623 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Music temple Maya"]
+position = Vector2( -639, -970 )
+stream = ExtResource( 7 )
+autoplay = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Music temple Maya"]
+position = Vector2( -806, -952.25 )
+shape = SubResource( 38 )
+disabled = true
+
+[node name="Music temple Maya2" type="Area2D" parent="."]
+position = Vector2( -239, 4047 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Music temple Maya2"]
+position = Vector2( -342, -988 )
+stream = ExtResource( 7 )
+autoplay = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Music temple Maya2"]
+position = Vector2( -854, -1071 )
+shape = SubResource( 38 )
+disabled = true
+
+[node name="Music gauche" type="Area2D" parent="."]
+position = Vector2( -4935, 213 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Music gauche"]
+position = Vector2( 172, 0 )
+stream = ExtResource( 7 )
+autoplay = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Music gauche"]
+position = Vector2( 167, 72 )
+shape = SubResource( 39 )
+disabled = true
+
+[node name="music droite" type="Area2D" parent="."]
+position = Vector2( 3286, -41 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="music droite"]
+position = Vector2( -10, -20 )
+stream = ExtResource( 7 )
+autoplay = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="music droite"]
+position = Vector2( -387, 320 )
+shape = SubResource( 40 )
+disabled = true
+
+[node name="haut gauche" type="Area2D" parent="."]
+position = Vector2( -4515, 3038 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="haut gauche"]
+position = Vector2( -284, 28.5 )
+shape = SubResource( 41 )
+disabled = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="haut gauche"]
+stream = ExtResource( 7 )
+autoplay = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2( 2899, 2920 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -18.5, 140 )
+shape = SubResource( 42 )
+disabled = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Area2D"]
+stream = ExtResource( 7 )
+autoplay = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D2" type="Area2D" parent="."]
+position = Vector2( 2394, -2525 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2( 517, -44 )
+shape = SubResource( 43 )
+disabled = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Area2D2"]
+stream = ExtResource( 7 )
+autoplay = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Area2D3" type="Area2D" parent="."]
+position = Vector2( -4823, -2569 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
+position = Vector2( 59.5, 23 )
+shape = SubResource( 44 )
+disabled = true
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Area2D3"]
+stream = ExtResource( 7 )
+autoplay = true
+__meta__ = {
+"_edit_group_": true
+}
