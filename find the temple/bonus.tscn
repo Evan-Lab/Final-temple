@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=2]
+[gd_scene load_steps=59 format=2]
 
 [ext_resource path="res://src/img/lab.png" type="Texture" id=1]
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
@@ -9,12 +9,13 @@
 [ext_resource path="res://src/music/jungle/v2/find_the_temple_jungle_maze_(v2).mp3" type="AudioStream" id=7]
 [ext_resource path="res://src/music/maya/v2/find_the_temple_maya_maze_(v2).mp3" type="AudioStream" id=8]
 [ext_resource path="res://src/img/chest.png" type="Texture" id=9]
-[ext_resource path="res://src/img/wood wall.png" type="Texture" id=10]
+[ext_resource path="res://src/img/wall.png" type="Texture" id=10]
 [ext_resource path="res://WALL4.gd" type="Script" id=11]
 [ext_resource path="res://WALL1.gd" type="Script" id=12]
 [ext_resource path="res://WALL3.gd" type="Script" id=13]
 [ext_resource path="res://WALL2.gd" type="Script" id=14]
-[ext_resource path="res://src/music/butt_and_wall/find_the_temple_button_click_and_wall_move.mp3" type="AudioStream" id=15]
+[ext_resource path="res://src/music/butt_and_wall/find_the_temple_button_click_and_wall_move.ogg" type="AudioStream" id=15]
+[ext_resource path="res://bonus.gd" type="Script" id=16]
 
 [sub_resource type="AtlasTexture" id=18]
 flags = 4
@@ -227,6 +228,7 @@ radius = 33.0151
 extents = Vector2( 1354, 128.5 )
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource( 16 )
 
 [node name="Sprite" type="Sprite" parent="."]
 visible = false
@@ -250,7 +252,7 @@ current = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
 frames = SubResource( 34 )
 animation = "WEST"
-frame = 4
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
@@ -378,9 +380,6 @@ __meta__ = {
 position = Vector2( -1087, -3204 )
 script = ExtResource( 12 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="WALL1"]
-stream = ExtResource( 15 )
-
 [node name="Sprite" type="Sprite" parent="WALL1"]
 position = Vector2( 17, -12 )
 scale = Vector2( 1.48438, 1.32813 )
@@ -394,8 +393,8 @@ shape = SubResource( 36 )
 position = Vector2( 2093, 688 )
 
 [node name="Sprite" type="Sprite" parent="WALL1/KinematicBody2D"]
-position = Vector2( -2, 82.9999 )
-scale = Vector2( 0.5, 3.237 )
+position = Vector2( -141, -36.0001 )
+scale = Vector2( 16.625, 30.375 )
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL1/KinematicBody2D"]
@@ -419,8 +418,9 @@ shape = SubResource( 38 )
 position = Vector2( 57, 1659 )
 
 [node name="Sprite" type="Sprite" parent="WALL2/KinematicBody2D"]
-position = Vector2( -88.4998, -4 )
-scale = Vector2( 5.421, 0.5 )
+position = Vector2( 111.203, -140.624 )
+rotation = 1.5708
+scale = Vector2( 17.1897, 51.3032 )
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL2/KinematicBody2D"]
@@ -444,8 +444,8 @@ shape = SubResource( 40 )
 position = Vector2( -3662, 809 )
 
 [node name="Sprite" type="Sprite" parent="WALL3/KinematicBody2D"]
-position = Vector2( 22, 9.99976 )
-scale = Vector2( 0.5, 3.976 )
+position = Vector2( -116.5, -140 )
+scale = Vector2( 17.3906, 37.3125 )
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL3/KinematicBody2D"]
@@ -469,15 +469,23 @@ shape = SubResource( 42 )
 position = Vector2( 910, -2738 )
 
 [node name="Sprite" type="Sprite" parent="WALL4/KinematicBody2D"]
-position = Vector2( -25, 7 )
-scale = Vector2( 5.152, 0.5 )
+position = Vector2( 165, -116 )
+rotation = 1.5708
+scale = Vector2( 15.9806, 47.954 )
 texture = ExtResource( 10 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WALL4/KinematicBody2D"]
 position = Vector2( -21, 7.5 )
 shape = SubResource( 43 )
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+
+[connection signal="body_entered" from="WALL1" to="." method="_on_WALL1_body_entered"]
 [connection signal="body_entered" from="WALL1" to="WALL1" method="_on_WALL1_body_entered"]
+[connection signal="body_entered" from="WALL2" to="." method="_on_WALL2_body_entered"]
 [connection signal="body_entered" from="WALL2" to="WALL2" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="WALL3" to="." method="_on_WALL3_body_entered"]
 [connection signal="body_entered" from="WALL3" to="WALL3" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="WALL4" to="." method="_on_WALL4_body_entered"]
 [connection signal="body_entered" from="WALL4" to="WALL4" method="_on_Area2D_body_entered"]
