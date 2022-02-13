@@ -240,7 +240,7 @@ __meta__ = {
 }
 
 [node name="lab-KinematicBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( -1072, -3080 )
+position = Vector2( -3606, -3277 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -252,7 +252,7 @@ current = true
 [node name="AnimatedSprite" type="AnimatedSprite" parent="lab-KinematicBody2D"]
 frames = SubResource( 34 )
 animation = "WEST"
-frame = 1
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="lab-KinematicBody2D"]
