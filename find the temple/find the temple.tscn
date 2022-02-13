@@ -17,9 +17,9 @@ texture = ExtResource( 1 )
 
 [node name="Button_leave" type="Button" parent="."]
 margin_left = 159.0
-margin_top = 224.0
+margin_top = 124.0
 margin_right = 743.0
-margin_bottom = 382.0
+margin_bottom = 282.0
 rect_scale = Vector2( 0.5, 1 )
 script = ExtResource( 2 )
 __meta__ = {
@@ -27,22 +27,22 @@ __meta__ = {
 }
 
 [node name="LeaveTheGame" type="Sprite" parent="Button_leave"]
-position = Vector2( 441, 158.5 )
+position = Vector2( 444, 195 )
 scale = Vector2( 0.974286, 0.914 )
 texture = ExtResource( 3 )
 
 [node name="Button_start" type="Button" parent="."]
-margin_left = 557.0
-margin_top = 329.0
-margin_right = 787.0
-margin_bottom = 438.0
+margin_left = 245.0
+margin_top = 343.0
+margin_right = 475.0
+margin_bottom = 452.0
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="StartToPlay" type="Sprite" parent="Button_start"]
-position = Vector2( 114, 129 )
+position = Vector2( 117, 130 )
 scale = Vector2( 0.26619, 0.624667 )
 texture = ExtResource( 5 )
 

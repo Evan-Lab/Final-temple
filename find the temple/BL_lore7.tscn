@@ -5,7 +5,7 @@
 [ext_resource path="res://src/pour léo/sprites/Menu.png" type="Texture" id=3]
 [ext_resource path="res://src/pour léo/texte/paragraphe 6.png" type="Texture" id=4]
 [ext_resource path="res://buttons/Button_continue7.gd" type="Script" id=5]
-[ext_resource path="res://src/pour léo/sprites/start to play.png" type="Texture" id=6]
+[ext_resource path="res://src/pour léo/sprites/Press space to continue.png" type="Texture" id=6]
 
 [node name="Node2D" type="Node2D"]
 
@@ -44,9 +44,9 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="StartToPlay" type="Sprite" parent="PourLa7/Button_continue7"]
-position = Vector2( 89.0447, 92.6632 )
-scale = Vector2( 0.208526, 0.465098 )
+[node name="PressSpaceToContinue" type="Sprite" parent="PourLa7/Button_continue7"]
+position = Vector2( 123.485, 71.3612 )
+scale = Vector2( 0.244215, 0.337579 )
 texture = ExtResource( 6 )
 
 [connection signal="pressed" from="PourLa7/Button_menu7" to="PourLa7/Button_menu7" method="_on_Button_menu7_pressed"]

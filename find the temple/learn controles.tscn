@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://src/pour léo/sprites/directions/to go north.png" type="Texture" id=1]
 [ext_resource path="res://src/pour léo/sprites/directions/s to go south.png" type="Texture" id=2]
@@ -7,12 +7,14 @@
 [ext_resource path="res://src/pour léo/sprites/directions/Do to go west.png" type="Texture" id=5]
 [ext_resource path="res://src/pour léo/fond/fond plage/narateur1.png" type="Texture" id=6]
 [ext_resource path="res://src/pour léo/sprites/directions/o to put a torch.png" type="Texture" id=7]
+[ext_resource path="res://src/pour léo/sprites/start to play.png" type="Texture" id=8]
+[ext_resource path="res://buttons/Button_start_game.gd" type="Script" id=9]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Narateur1" type="Sprite" parent="."]
-position = Vector2( 518, 307 )
-scale = Vector2( 1.45211, 1.13415 )
+position = Vector2( 516.25, 301.875 )
+scale = Vector2( 1.45282, 1.12617 )
 texture = ExtResource( 6 )
 
 [node name="DoToGoWest" type="Sprite" parent="Narateur1"]
@@ -35,12 +37,29 @@ position = Vector2( 207.973, 82 )
 scale = Vector2( 0.263281, 0.398129 )
 texture = ExtResource( 4 )
 
-[node name="IToPutACheckpoint" type="Sprite" parent="."]
-position = Vector2( 483, 368 )
-scale = Vector2( 0.55381, 0.704667 )
+[node name="OToPutATorch" type="Sprite" parent="Narateur1"]
+position = Vector2( -115.693, 192.215 )
+scale = Vector2( 0.418602, 0.65453 )
+texture = ExtResource( 7 )
+
+[node name="IToPutACheckpoint" type="Sprite" parent="Narateur1"]
+position = Vector2( -22.7255, 56.4301 )
+scale = Vector2( 0.381382, 0.621319 )
 texture = ExtResource( 3 )
 
-[node name="OToPutATorch" type="Sprite" parent="IToPutACheckpoint"]
-position = Vector2( -250.989, 205.771 )
-scale = Vector2( 1.09759, 1.05345 )
-texture = ExtResource( 7 )
+[node name="Button_start_game" type="Button" parent="Narateur1"]
+margin_left = -108.0
+margin_top = 138.0
+margin_right = 60.0
+margin_bottom = 231.0
+script = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartToPlay" type="Sprite" parent="Narateur1/Button_start_game"]
+position = Vector2( 84.4251, 122.284 )
+scale = Vector2( 0.195716, 0.594585 )
+texture = ExtResource( 8 )
+
+[connection signal="pressed" from="Narateur1/Button_start_game" to="Narateur1/Button_start_game" method="_on_Button_start_game_pressed"]
